@@ -32,7 +32,7 @@
 -(void)tap:(UITapGestureRecognizer *)gr
 {
     CGPoint point = [gr locationInView:self.view];
-    NSLog(@"%@",NSStringFromCGPoint(point));
+    NSLog(@"点击的坐标%@",NSStringFromCGPoint(point));
     
 }
 
